@@ -1,7 +1,16 @@
-# ALSO Abrechnungsdaten Import - Pflichtenheft
+# MSPGenie - Contract-Based Multi-Vendor Billing System
 
 ## Übersicht
-Dieses Dokument beschreibt die Spezifikation für den Import von ALSO-Abrechnungsdaten in MSPGenie. Basierend auf der Analyse der Excel-Dateien von 2020-2025.
+Moderne, vertragsbasierte Abrechnungsplattform für MSPs mit Multi-Vendor-Support und Bundle-Management. Basierend auf detaillierter Analyse der bestehenden Access-Systeme und Vendor-Datenquellen.
+
+## Kernerkenntnisse aus der Analyse
+
+### 🎯 Hauptprobleme des aktuellen Systems identifiziert:
+1. **P1Y Prepaid Revenue Loss**: ~300€/Jahr durch falsche Revenue Recognition
+2. **Multi-Commitment-Confusion**: P1M + P1Y werden nicht korrekt getrennt  
+3. **Bundle-Complexity**: Kunde sieht Bundle-Artikel, dahinter Multiple-Vendor-Validierung
+4. **Dual-Billing-Systems**: Starface Cloud vs Private Cloud völlig verschieden
+5. **Missing Contract Foundation**: Keine vertragliche Absicherung der Abrechnungen
 
 ## Datenstruktur der ALSO Excel-Dateien
 
