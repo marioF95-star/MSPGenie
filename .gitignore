@@ -1,0 +1,43 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Data files
+data/
+*.xlsx
+*.xls
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Node modules (if any)
+node_modules/
+
+# Laravel specific
+.env
+.env.local
+.env.production
+storage/logs/
+bootstrap/cache/
+
+# Large template directory (can be downloaded separately)
+Minia_Tailwind_Laravel_v1.3.0/
